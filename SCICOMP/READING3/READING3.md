@@ -53,7 +53,7 @@ alexanderbaranof@192 SCICOMP % ls -a
 
 Exercise: Explain pushd and popd; what data structure represents your directory history? Give an example of using them to organise a folder with music.
 
-TODO
+Pushd is used to create a stack and save paths to folders there. This results in a folder stack. The popd command extracts the directory from the stack. That is, the last directory added becomes the working directory. This can be useful for organizing a playlist. When one folder runs out of tracks, you can remove it from the stack and move to another folder.
 
 Exercise: Draw a partial tree of your filesystem, starting from the children of your home directory. Include ancestors of your home directory, and siblings of those ancestors. Exclude files, just show directories. Here is mine:
 
@@ -118,7 +118,13 @@ Hello, Sasha
 
 Exercise: Write a shell script that performs "ROT13" (Caesar cipher with shift 13.) For English, encryption and decryption are the same! (Explain why!) Sample interaction:
 
-TODO
+```
+#!/bin/bash
+
+echo "Hello, I am Sasha" | tr '[A-Z]' '[X-ZA-W]'
+```
+
+Encoding and decoding is the same process because the alphabet contains 26 letters
 
 Exercise: Write a shell function that prints "hidden" if the current directory starts with a dot ".", or if any parent starts with a dot. (Files and directories that start with dots are considered "hidden" on many UNIX-like systems.) Sample interaction:
 
