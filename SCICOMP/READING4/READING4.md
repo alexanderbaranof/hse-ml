@@ -74,13 +74,13 @@ Exercise: Install an IRC client, log in to freenode.net, join #apertium and writ
 
 Exercise: Find a piece of software that you use which has an IRC channel for support. Ask a question there about the software. Include your conversation, and a brief description of your experiences.
 
-TODO
+I use Pidgin client and connect to #pidgin suuport via https://web.libera.chat/#pidgin . It's simple. 
 
 ### Matrix
 
 Exercise: together with a friend, try out the Riot.im web client. How does it compare to IRC? To Telegram?
 
-TODO
+My feeling is that it's something between Telegram and IRC.  Interesting description of the protocol used. 
 
 ## Quality control
 
