@@ -81,7 +81,7 @@ Exercise: write similar formulas expressing NOT, AND, and OR in terms of NOR
 
 NOT(X) = NOR(0,X)
 
-X | A = 0 OR X | NOT A | NOT X
+X | (1) 0 OR X | NOT (1) | NOT X
 --|------------|-------|-------
 0 |     0      |1      |1
 1 |     1      |0      |0
